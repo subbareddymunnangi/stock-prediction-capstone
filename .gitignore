@@ -1,0 +1,30 @@
+# Virtual Environments
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (optional – remove if you want to track data)
+data/*.csv
+data/*.xlsx
+
+# Models (large files)
+models/*.pkl
+models/*.h5
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
