@@ -5,6 +5,12 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import sys
 import os
+import os
+
+# Create necessary directories
+os.makedirs('data', exist_ok=True)
+os.makedirs('models', exist_ok=True)
+os.makedirs('notebooks', exist_ok=True)
 
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
